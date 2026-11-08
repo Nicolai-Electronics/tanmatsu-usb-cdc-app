@@ -1,0 +1,8 @@
+dependencies:
+  idf: ">=6.0.2"
+  badgeteam/badge-bsp: "=2.0.2"
+  robotman2412/pax-gfx: "=2.2.2"
+  espressif/esp_tinyusb:
+    version: "=2.2.1"
+    rules:
+      - if: target == esp32p4 || target == esp32s3
